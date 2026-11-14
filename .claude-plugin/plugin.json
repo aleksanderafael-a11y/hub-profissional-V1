@@ -1,0 +1,8 @@
+{
+  "name": "hub-profissional",
+  "displayName": "Hub Profissional V1",
+  "description": "Métodos de trabalho do Hub Profissional: regras gerais em toda conversa, skills, regras, mapas e delegação, com pasta pessoal separada do plugin.",
+  "author": { "name": "Aleksander" },
+  "repository": "https://github.com/aleksanderafael-a11y/hub-de-entrega",
+  "skills": ["./.agents/skills/"]
+}

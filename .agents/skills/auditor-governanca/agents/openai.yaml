@@ -1,0 +1,4 @@
+interface:
+  display_name: "Auditor de governança"
+  short_description: "Revisão independente de regras e configuração"
+  default_prompt: "Use $auditor-governanca para revisar, somente em leitura, esta mudança de instruções ou configuração e devolver um veredito com achados por arquivo e linha, conforme as permissões desta cópia."

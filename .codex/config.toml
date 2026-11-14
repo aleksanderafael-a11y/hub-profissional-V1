@@ -1,0 +1,52 @@
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+
+[sandbox_workspace_write]
+writable_roots = []
+network_access = false
+exclude_slash_tmp = true
+exclude_tmpdir_env_var = true
+
+[features]
+memories = false
+hooks = false
+
+[memories]
+generate_memories = false
+use_memories = false
+
+[mcp_servers.auvp]
+enabled = false
+
+[mcp_servers.node_repl]
+enabled = false
+
+[mcp_servers.mcp_meta]
+enabled = false
+
+[apps._default]
+enabled = false
+
+[apps.connector_76869538009648d5b282a4bb21c3d157]
+enabled = false
+
+[plugins."visualize@openai-bundled"]
+enabled = false
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = false
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = false
+
+[plugins."browser@openai-bundled"]
+enabled = false
+
+[plugins."chrome@openai-bundled"]
+enabled = false
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = false
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = false

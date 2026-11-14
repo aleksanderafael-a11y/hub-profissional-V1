@@ -1,0 +1,12 @@
+{
+  "name": "hub-de-entrega",
+  "description": "Catálogo do Hub Profissional para o Claude Code.",
+  "owner": { "name": "Aleksander" },
+  "plugins": [
+    {
+      "name": "hub-profissional",
+      "source": "./",
+      "description": "Hub Profissional V1: regras gerais em toda conversa, métodos compartilhados e pasta pessoal separada do plugin."
+    }
+  ]
+}

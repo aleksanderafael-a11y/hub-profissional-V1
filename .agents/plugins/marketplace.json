@@ -1,0 +1,12 @@
+{
+  "name": "hub-de-entrega",
+  "interface": { "displayName": "Hub de entrega" },
+  "plugins": [
+    {
+      "name": "hub-profissional",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

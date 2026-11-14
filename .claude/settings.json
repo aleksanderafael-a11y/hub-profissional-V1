@@ -1,0 +1,33 @@
+{
+  "autoMemoryEnabled": false,
+  "enableAllProjectMcpServers": false,
+  "claudeMdExcludes": [
+    "C:/Users/aleks/.claude/CLAUDE.md",
+    "C:/Users/aleks/.claude/RTK.md",
+    "C:/Users/aleks/.claude/rules/**"
+  ],
+  "enabledPlugins": {
+    "guarda-governanca@mods-aleksander": false,
+    "guarda-jev@mods-aleksander": false,
+    "gate-zero@mods-aleksander": false,
+    "plano-salvar-parar@mods-aleksander": false
+  },
+  "disableAllHooks": true,
+  "permissions": {
+    "deny": [
+      "Read(//c/Users/aleks/.codex/projects/Hub Profissional/**)",
+      "Edit(//c/Users/aleks/.codex/projects/Hub Profissional/**)",
+      "Read(//c/Users/aleks/.claude/projects/C--Users-aleks--codex-projects-Hub-Profissional/**)",
+      "Bash(*Hub*Profissional*)",
+      "Bash(*../Hub*)",
+      "Bash(*..\\Hub*)",
+      "Bash(*projects/Hub*)",
+      "Bash(*projects\\Hub*)",
+      "PowerShell(*Hub*Profissional*)",
+      "PowerShell(*../Hub*)",
+      "PowerShell(*..\\Hub*)",
+      "PowerShell(*projects/Hub*)",
+      "PowerShell(*projects\\Hub*)"
+    ]
+  }
+}

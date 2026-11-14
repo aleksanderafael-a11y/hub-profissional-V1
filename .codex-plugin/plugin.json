@@ -1,0 +1,15 @@
+{
+  "name": "hub-profissional",
+  "version": "1.0.0",
+  "description": "Métodos de trabalho do Hub Profissional: regras gerais em toda conversa, skills, regras, mapas e delegação, com pasta pessoal separada do plugin.",
+  "author": { "name": "Aleksander" },
+  "repository": "https://github.com/aleksanderafael-a11y/hub-de-entrega",
+  "skills": "./.agents/skills/",
+  "interface": {
+    "displayName": "Hub Profissional V1",
+    "shortDescription": "Métodos de trabalho do Hub",
+    "longDescription": "Carrega as regras gerais do Hub Profissional em toda conversa e traz os métodos de ideia, personalização, plano, execução, pesquisa, manutenção e delegação. Ideias, planos, tarefas e personalização ficam na pasta pessoal, onde a conversa é aberta, e não são apagados por atualizações do plugin.",
+    "developerName": "Aleksander",
+    "category": "Productivity"
+  }
+}

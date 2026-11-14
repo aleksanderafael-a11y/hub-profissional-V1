@@ -1,0 +1,7 @@
+interface:
+  display_name: "Direção profissional"
+  short_description: "Decidir, priorizar, planejar ou refletir sobre uma ideia"
+  default_prompt: "Use $hud-direcao-profissional para decidir, priorizar, planejar ou refletir sobre uma ideia comigo, entre frentes do projeto ou tarefas da área atual."
+
+policy:
+  allow_implicit_invocation: true
