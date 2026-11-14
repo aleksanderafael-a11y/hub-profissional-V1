@@ -1,6 +1,6 @@
 {
-  "name": "hub-de-entrega",
-  "interface": { "displayName": "Hub de entrega" },
+  "name": "hub-profissional-v1",
+  "interface": { "displayName": "Hub Profissional V1" },
   "plugins": [
     {
       "name": "hub-profissional",

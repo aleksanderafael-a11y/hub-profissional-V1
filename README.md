@@ -33,27 +33,27 @@ O percurso permanece **ideia → personalização → plano**, conforme a escolh
 
 ## Plugin Hub Profissional V1
 
-Esta pasta também é o plugin **Hub Profissional V1**, instalável no Claude Code e no Codex a partir do repositório privado no GitHub. As duas ferramentas usam os mesmos arquivos de método.
+Esta pasta também é o plugin **Hub Profissional V1**, instalável no Claude Code e no Codex a partir do repositório público no GitHub. As duas ferramentas usam os mesmos arquivos de método.
 
 - `.claude-plugin/plugin.json` e `.claude-plugin/marketplace.json`: manifesto e catálogo do Claude Code.
 - `.codex-plugin/plugin.json` e `.agents/plugins/marketplace.json`: manifesto e catálogo do Codex.
 - `hooks/`: rotina de início de conversa que carrega o `AGENTS.md` em toda conversa e diz à IA onde ficam o plugin e a pasta pessoal (`hooks.json`, `regras-gerais.sh`, `regras-gerais.ps1`, `aviso-inicial.md`).
 - `modelo-pasta-pessoal/` e o método [primeiro uso](.agents/skills/primeiro-uso/SKILL.md): criam, com o sim da pessoa, a pasta pessoal na pasta onde a conversa é aberta (`AGENTS.md` pessoal, `CLAUDE.md`, `TAREFAS.md`, `ideias/`, `planos/`). Atualizações do plugin não mexem nela.
 
-**Instalar no Claude Code** (a máquina precisa acessar o repositório privado por chave SSH ou por `gh auth login` seguido de `gh auth setup-git`):
+**Instalar no Claude Code:**
 
 ```bash
-claude plugin marketplace add aleksanderafael-a11y/hub-de-entrega
+claude plugin marketplace add aleksanderafael-a11y/hub-profissional-V1
 ```
 
 ```bash
-claude plugin install hub-profissional@hub-de-entrega
+claude plugin install hub-profissional@hub-profissional-v1
 ```
 
 **Instalar no Codex:**
 
 ```bash
-codex plugin marketplace add aleksanderafael-a11y/hub-de-entrega
+codex plugin marketplace add aleksanderafael-a11y/hub-profissional-V1
 ```
 
 Depois, no Codex, abrir `/plugins`, instalar **Hub Profissional V1**, aprovar a rotina de início em `/hooks` e abrir uma conversa nova.
