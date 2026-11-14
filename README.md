@@ -1,4 +1,30 @@
-# Hub de entrega
+# Hub Profissional V1
+
+Um sócio de IA dentro do Claude Code: organiza sua ideia, ajusta o jeito de trabalhar a você e monta o plano com você, passo a passo. Versão beta de teste.
+
+## Como começar
+
+1. Instale (no terminal):
+
+   ```bash
+   claude plugin marketplace add aleksanderafael-a11y/hub-profissional-V1
+   claude plugin install hub-profissional@hub-profissional-v1
+   ```
+
+2. Crie uma pasta para o seu Hub (ou use a de um projeto seu) e abra o Claude Code nela.
+3. Escreva "oi". O Hub se apresenta e oferece criar sua pasta pessoal.
+
+Suas ideias, planos e tarefas ficam na sua pasta. Atualizar o plugin não apaga nada delas.
+
+Para atualizar:
+
+```bash
+claude plugin update hub-profissional@hub-profissional-v1
+```
+
+---
+
+## Para quem mantém a base
 
 Esta pasta é a **base geral de entrega** do projeto, preparada para gerar cópias individuais. Não é o espaço de trabalho de uma pessoa: reúne instruções, métodos e um catálogo descritivo, sem dados pessoais, objetivos particulares nem trabalhos de destinatários. Cada cópia individual será preenchida e ajustada com a própria pessoa, conforme o que ela informar e confirmar.
 
