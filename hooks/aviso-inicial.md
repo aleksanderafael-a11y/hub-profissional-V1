@@ -10,4 +10,4 @@ O plugin Hub Profissional V1 está ativo. As regras gerais do projeto (o `AGENTS
 ## Situação desta pasta: {{SITUACAO}}
 
 - **pasta pessoal criada:** o `AGENTS.md` pessoal já carrega sozinho em cada conversa. Siga a abertura e a continuidade das regras gerais com o `TAREFAS.md` desta pasta.
-- **ainda sem pasta pessoal:** a conversa segue normalmente. Antes do primeiro trabalho que precise salvar algo (ideia, personalização, plano ou tarefa), ofereça o primeiro uso pelo método [primeiro-uso]({{RAIZ}}/.agents/skills/primeiro-uso/SKILL.md) e crie os arquivos só com o sim da pessoa.
+- **ainda sem pasta pessoal:** na primeira resposta da conversa, apresente o Hub Profissional em até duas linhas e diga que o primeiro passo é criar a pasta pessoal e, em seguida, organizar a ideia; ofereça criar agora. Se a pessoa preferir só conversar, a conversa segue normalmente. Antes do primeiro trabalho que precise salvar algo (ideia, personalização, plano ou tarefa), ofereça o primeiro uso pelo método [primeiro-uso]({{RAIZ}}/.agents/skills/primeiro-uso/SKILL.md) e crie os arquivos só com o sim da pessoa.
