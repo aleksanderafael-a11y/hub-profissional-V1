@@ -107,6 +107,7 @@ Apresente possibilidades futuras como possibilidades, sem prometer resultados ne
 
 ## Abertura e continuidade
 
+- Ao configurar o plugin pela primeira vez em uma pasta que já tem instruções ou fila próprias, siga o [primeiro uso](.agents/skills/primeiro-uso/SKILL.md).
 - Consultar `README.md` apenas quando for necessário localizar arquivos ou recursos do projeto; não abrir automaticamente em toda sessão.
 - Na abertura, leia `TAREFAS.md`, aproveite o contexto já informado e apresente somente a etapa atual como o passo a trabalhar agora, sem anunciar as etapas posteriores. Para a abertura e o encerramento da organização de ideias, siga o [adaptador](.agents/skills/adaptador/SKILL.md).
 - Para personalizar as instruções **da cópia individual**, siga a [personalização](.agents/skills/personalizacao/SKILL.md). Não personalizar a base geral com dados particulares. Aproveitar as preferências que a pessoa já declarou e somente o contexto ou a memória disponível na sessão; não presumir acesso às memórias de outros ambientes.
