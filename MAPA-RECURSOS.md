@@ -300,9 +300,6 @@ A manutenção desta cópia descritiva parte da fonte dona no Hub Profissional. 
 - **Resumo de tarefas, prazos e retornos:** **O que é:** Script PowerShell de filas Markdown  
   **Entrega e uso:** Extrai itens abertos, datas, responsáveis e pendências das filas de tarefas previstas.  
   **Limites:** Requer PowerShell 7, estrutura específica de TAREFAS.md e Git para certas datas. Não lê tarefas arbitrárias.
-- **Aviso de retomada pelo plano mais recente:** **O que é:** Script PowerShell de retomada  
-  **Entrega e uso:** Mostra as alterações fora de commit e o bloco de situação atual do plano mexido por último, para retomar sem procurar.  
-  **Limites:** Requer PowerShell 7, Git e planos com bloco "Agora" no formato previsto; só lê. Não detecta mudanças feitas no mesmo dia da data do bloco.
 - **Verificação de links e referências locais:** **O que é:** Script PowerShell de referências e históricos  
   **Entrega e uso:** Lista links Markdown locais quebrados, movimentações e problemas de histórico.  
   **Limites:** Exige repositório local e PowerShell 7; modo opcional de descarte altera arquivos. Não valida âncoras.
