@@ -77,56 +77,32 @@ Ao oferecer, apresente o nome, o que o recurso faria no caso e o que o mapa info
 
 ## Ensinar a usar o projeto
 
-Quando a pessoa pedir para aprender a usar este projeto, apresente suas funções: organizar ideias, personalizar o trabalho, planejar, executar ações autorizadas, pesquisar, continuar, investigar problemas e desenvolver melhorias. Explique as funções pertinentes com exemplos do caso e de pedidos que ela pode fazer. Para uma dúvida pontual, ensine apenas o necessário.
-
-Explique o valor de reunir métodos e recursos preparados para conduzir esse trabalho e aproveitar o que já foi construído. Reconheça o que outras IAs também fazem e mostre como esta estrutura pode reduzir o esforço de descobrir, preparar e coordenar o conjunto. Diante de uma objeção, examine o argumento e complete a explicação com motivos e exemplos, sem reduzir o projeto à ferramenta atual ou à memória.
-
-Apresente possibilidades futuras como possibilidades, sem prometer resultados nem ausência de erros.
+Quando a pessoa pedir ajuda para usar o projeto, explique o que ela pode fazer no caso dela e dê um exemplo de pedido. Se ela quiser uma visão geral, mostre como os métodos disponíveis ajudam a organizar ideias, personalizar, planejar, executar ações autorizadas, pesquisar, retomar, corrigir e melhorar o trabalho. Explique como os métodos e registros ajudam a reaproveitar decisões e materiais. Apresente possibilidades futuras como possibilidades.
 
 ## Abertura e continuidade
 
-- Ao configurar o plugin pela primeira vez em uma pasta que já tem instruções ou fila próprias, siga o [primeiro uso](.agents/skills/primeiro-uso/SKILL.md).
-- Consultar `README.md` apenas quando for necessário localizar arquivos ou recursos do projeto; não abrir automaticamente em toda sessão.
-- Na abertura, leia `TAREFAS.md`, aproveite o contexto já informado e apresente somente a etapa atual como o passo a trabalhar agora, sem anunciar as etapas posteriores. Para a abertura e o encerramento da organização de ideias, siga o [adaptador](.agents/skills/adaptador/SKILL.md).
-- Para personalizar as instruções da pasta de trabalho da pessoa, siga a [personalização](.agents/skills/personalizacao/SKILL.md). Guarde nessa pasta os dados, objetivos, preferências e registros particulares da pessoa, não nas instruções do plugin. Aproveitar as preferências que ela já declarou e somente o contexto ou a memória disponível na sessão; não presumir acesso às memórias de outros ambientes.
-- Quando a pessoa pedir o plano de construção ou autorizar continuar essa etapa, siga o [construtor](.agents/skills/construtor/SKILL.md), respeitando a etapa atual e a sequência ideia → personalização → plano. A etapa aberta na fila não o inicia sozinha.
-- Se a personalização já estiver concluída, siga a etapa atual. Se a pessoa pedir um ajuste nas instruções, retome a personalização apenas no necessário, aproveitando o contexto e as decisões existentes.
-- Trabalhe na etapa pedida. Ao concluí-la, oriente sobre um único próximo passo sem executá-lo; se ele depender de outra conversa ou de um recurso ainda não preparado, explique o que falta e deixe a próxima ação registrada.
-- Para preparar ou conferir um trabalho destinado a outra conversa ou ferramenta, siga o [Protocolo Demanda](rules/protocolo-demanda.md). Ele é a fonte do método de repasse e conferência; preserve contexto, decisões, resultados esperados, evidências e ponto de parada sem duplicar seus passos aqui.
-- Para escolher entre execução direta, leitura delimitada e apoio, use a [operação eficiente](.agents/skills/operacao-eficiente-hub/SKILL.md) quando ajudar no pedido. A seleção de auxiliares segue as [regras de delegação](REGRAS-DELEGACAO-AUXILIARES.md) e sua [consulta](REGRAS-DELEGACAO-CONSULTA.md); a cópia pode usar só a ferramenta da sessão. Não presumir outras opções nem autorização para acioná-las ou enviar dados.
+- Ao retomar o trabalho ou abrir uma conversa sem tarefa definida, consulte a fila indicada em “Fila e fontes”. Aproveite o contexto já informado e apresente a etapa atual e o próximo passo pertinente. Para pedidos diretos, consulte a fila quando ela ajudar a atender ao pedido.
+- Quando for preciso localizar arquivos ou recursos do projeto, consulte o `README.md` da pasta de trabalho. Para criar a pasta pessoal, siga o [primeiro uso](.agents/skills/primeiro-uso/SKILL.md).
+- Use o [índice de modos e papéis](rules/modos-hub.md) para localizar o método da etapa pedida. Para ajustar as instruções da pessoa, siga a [personalização](.agents/skills/personalizacao/SKILL.md). Quando a continuidade depender de um repasse, siga o [Protocolo Demanda](rules/protocolo-demanda.md).
 
 ## Memória do projeto e aprendizado
 
 ### Decisões e descartes
 
-- Guardar as decisões confirmadas no registro do assunto correspondente, com os limites relevantes.
-- Guardar também os caminhos descartados e seus motivos, para evitar reapresentá-los sem informação nova.
-- Texto escrito ou arquivo alterado não comprova que uma solução funcionou.
+Registre decisões confirmadas, alternativas descartadas e seus motivos na fonte do assunto, dentro da autorização recebida. Registre uma solução como validada quando houver evidência de funcionamento. Para organizar arquivos, fontes e registros, siga [Escrita e fechamento](rules/escrita-e-fechamento.md).
 
 ### Aprender com correções
 
-- Ao propor uma instrução nova ou corrigir uma existente, escrever o critério que orienta a decisão, a situação em que ele se aplica e os limites ou exceções importantes. Preferir uma regra que resolva casos semelhantes a uma frase criada apenas para o erro atual. Deixar a redação e o formato da resposta livres quando não forem requisitos da entrega; não acrescentar passos obrigatórios que a IA não consiga cumprir ou verificar. Se a orientação correta já existia, investigar por que não foi seguida antes de propor outra regra.
-- Aplicar a correção ao trabalho em andamento e conferir o que mais ela afeta naquela entrega.
-- Quando a correção revelar uma preferência durável ou uma regra útil para próximas conversas, propor uma instrução curta e registrá-la depois da confirmação da pessoa.
-- Preservar o motivo da correção para evitar repetir o erro em outra situação.
-
-Ao criar, organizar ou relacionar arquivos e fontes durante trabalho autorizado, aplicar [Escrita e fechamento](rules/escrita-e-fechamento.md), respeitando as permissões da cópia.
+- Aplique a correção ao trabalho em curso e confira o que mais ela afeta na entrega. Quando o motivo ajudar a evitar a repetição do erro, preserve-o no registro autorizado do assunto.
+- Antes de propor uma instrução nova, confira se uma orientação existente já cobre o caso. Se cobrir, investigue por que ela deixou de ser seguida.
+- Quando a correção revelar um ajuste útil para próximas conversas, proponha uma instrução curta que indique quando se aplica, o que orienta e quais limites importam. Confirme e registre o ajuste pela [personalização](.agents/skills/personalizacao/SKILL.md).
 
 ## Manutenção da fila
 
-- Manter `TAREFAS.md` como lista viva: pendências em `- [ ]` e etapas concluídas em `- [x]`.
-- Marcar uma etapa como concluída quando a entrega estiver feita e conferida. Se depender de confirmação da pessoa, aguardar essa confirmação.
-- Ao concluir, dizer o que ficou pronto e qual é o próximo passo.
-- Enquanto houver trabalho a continuar, deixar uma próxima ação clara, indicando quem precisa agir.
-- Se algo travar, registrar o impedimento e o que falta, sem apresentar trabalho parcial como concluído.
+- Atualize a fila indicada em “Fila e fontes”, seguindo o formato adotado pelo projeto. Na fila do modelo, use `- [ ]` para pendências e `- [x]` para etapas concluídas.
+- Marque a conclusão depois de conferir a entrega e obter a confirmação da pessoa quando exigida. Se houver pendência ou bloqueio, registre o que falta e a próxima ação com responsável.
+- No chat, informe o que ficou pronto e indique a continuação pertinente, quando houver.
 
 ## Crescimento do projeto
 
-Na personalização, sugerir apenas as opções que fizerem sentido para o tamanho do projeto:
-
-- **Áreas separadas:** quando houver frentes com trabalhos e filas próprios.
-- **Skills sob demanda:** quando um método precisar ser repetido com consistência.
-- **Cada informação em um lugar só:** quando vários documentos começarem a depender da mesma informação.
-- **Modos de trabalho:** quando distinguir conversa, planejamento, execução ou revisão ajudar a conduzir os pedidos.
-
-Explicar o ganho prático antes de propor a inclusão. Criar a estrutura conforme a necessidade confirmada, sem montar tudo de início.
+Quando o trabalho pedir frentes com responsabilidades próprias, métodos reutilizáveis ou uma fonte comum para vários documentos, explique o ganho prático de ajustar a estrutura. Aproveite o que já existe, proponha só o que atende à necessidade e combine a mudança com a pessoa antes de criar novas partes. Para ajustar as instruções da pasta, siga a [personalização](.agents/skills/personalizacao/SKILL.md).
