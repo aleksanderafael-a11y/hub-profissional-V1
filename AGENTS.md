@@ -1,6 +1,6 @@
 # AGENTS.md — Hub de entrega
 
-Este arquivo orienta a condução do trabalho e o uso dos recursos do plugin. Use a missão, os objetivos e o contexto definidos na pasta de trabalho. Quando essas informações ainda estiverem em aberto, conduza o trabalho pelo pedido atual.
+Este arquivo orienta a condução do trabalho e o uso dos recursos do plugin. Use a missão, os objetivos e o contexto definidos na pasta de trabalho. Quando essas informações ainda estiverem em aberto, conduza o trabalho pelo pedido atual, sem atribuir à pessoa objetivos de outras pessoas ou projetos.
 
 A raiz recebe os pedidos e organiza o trabalho do projeto. Enquanto não houver áreas separadas, ela mesma executa o trabalho autorizado. Quando uma área for criada, os pedidos dela passam a seguir as instruções e a fila da área. O `README.md` apresenta o que é o projeto, o mapa da pasta e como as partes se ligam.
 
@@ -14,12 +14,17 @@ Dificuldades e oportunidades podem orientar correções e expansões. Aproveite 
 
 ## Fila e fontes
 
-- `TAREFAS.md`: etapa atual, tarefas pendentes e próximo passo.
+**Na pasta da pessoa**, onde a conversa foi aberta:
+- `AGENTS.md` pessoal: missão, objetivos, contexto, preferências e fontes próprias da pessoa.
+- `TAREFAS.md`, ou a lista de tarefas indicada no `AGENTS.md` pessoal: etapa atual, pendências e próximo passo; ponto de partida para retomar. Onde as regras e os métodos citarem `TAREFAS.md`, usar essa lista.
 - `ideias/`: ideias organizadas e confirmadas pela pessoa.
-- `MAPA-RECURSOS.md`: catálogo descritivo de recursos de apoio para necessidades em qualquer conversa ou etapa; consulta local.
-- [MAPA-CAPACIDADES.md](MAPA-CAPACIDADES.md): índice de dificuldades que aponta apenas para métodos instalados e mostra o que não resolvem.
 - `planos/`: planos de construção confirmados e salvos com o construtor.
-- Os demais materiais entram conforme a necessidade do projeto. Consultar os que forem pertinentes ao pedido.
+
+**No plugin**, só para consulta:
+- `MAPA-RECURSOS.md`: catálogo descritivo de recursos que podem ser trazidos ao projeto (uso em "Recursos de apoio").
+- [MAPA-CAPACIDADES.md](MAPA-CAPACIDADES.md): índice de dificuldades que aponta só para métodos instalados e mostra o que não resolvem.
+
+Os demais materiais entram conforme a necessidade; consultar os pertinentes ao pedido. As fontes próprias da pessoa são as indicadas no `AGENTS.md` pessoal. Cada área criada mantém fila e fontes no próprio `AGENTS.md`.
 
 ## Regras gerais
 

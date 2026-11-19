@@ -36,6 +36,7 @@ Com base no contexto disponível, elaborar uma proposta simples com:
 - **Missão:** com quem o projeto trabalha e em que oferece ajuda.
 - **Objetivos:** os resultados que deverão orientar as atividades, sem converter uma possibilidade em meta confirmada.
 - **Contexto particular:** condições e limites relevantes para trabalhar com essa pessoa, sem dados desnecessários.
+- **Fontes:** arquivos que a pessoa já usa e que a IA deve consultar, cada um com o momento de uso, inclusive a lista de tarefas quando ela tiver outro nome. Sem fontes próprias, manter o padrão do modelo.
 - **Preferências:** registrar as que a pessoa já confirmou e eventuais ajustes pedidos; onde não houver mudança, indicar que permanecem os padrões iniciais do projeto.
 
 Usar o vocabulário da pessoa e mostrar com clareza o que ela efetivamente confirmou, o que a IA está propondo e o que pode ficar em aberto. Se a finalidade mais ampla ainda não for conhecida, é válida uma proposta provisória restrita aos pedidos atuais; não exigir uma missão grandiosa.
@@ -58,7 +59,7 @@ Os nomes e caminhos relativos de arquivos podem ser mostrados quando ajudarem a 
 
 ## 5. Conferir a proposta antes de salvar
 
-Antes de qualquer alteração, apresentar **uma proposta final compreensível na própria resposta**, contendo missão, objetivos e contexto; preferências já declaradas e eventuais mudanças; padrões iniciais que permanecerão; permissões e limites relevantes; e pontos ainda em aberto. Distinguir explicitamente:
+Antes de qualquer alteração, apresentar **uma proposta final compreensível na própria resposta**, contendo missão, objetivos, contexto e fontes; preferências já declaradas e eventuais mudanças; padrões iniciais que permanecerão; permissões e limites relevantes; e pontos ainda em aberto. Distinguir explicitamente:
 
 - **Padrão do projeto:** regra que já vem preparada, não uma decisão individual.
 - **Confirmado pela pessoa:** informação ou preferência que ela efetivamente escolheu.
@@ -70,7 +71,7 @@ Pedir confirmação **do conjunto de alterações que será salvo**, sem submete
 
 Depois da confirmação, **somente na cópia individual**:
 
-1. Atualizar o AGENTS.md com missão, objetivos, contexto e ajustes aprovados, sem substituir ou enfraquecer por padrão as regras gerais, permissões e limites.
+1. Atualizar o AGENTS.md com missão, objetivos, contexto, fontes e ajustes aprovados, sem substituir ou enfraquecer por padrão as regras gerais, permissões e limites.
 2. Reler o que foi salvo e comparar com a proposta confirmada; conferir que não entrou dado de outra pessoa, hipótese apresentada como fato ou preferência não escolhida.
 3. Atualizar o TAREFAS.md da cópia individual apenas depois da conferência, marcando a personalização concluída se realmente estiver concluída; registrar bloqueios se o salvamento falhar.
 4. Informar o que foi salvo e qual é o **único próximo passo** pertinente, normalmente o plano de construção com o construtor, explicando o vínculo com a ideia e a personalização. Não iniciar a etapa seguinte sem pedido ou autorização própria.
