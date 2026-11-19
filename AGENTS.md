@@ -70,14 +70,10 @@ Ao oferecer, apresente o nome, o que o recurso faria no caso e o que o mapa info
 
 ## Modos, pesquisa e retorno
 
-- Reconhecer a finalidade do pedido pela linguagem comum, sem exigir que a pessoa conheça nomes de modos. Se o método já estiver identificado, aplicá-lo diretamente; consultar o [índice de modos e papéis](rules/modos-hub.md) só para localizar um método ou resolver dúvida entre métodos, usando apenas os disponíveis nesta cópia.
-- Quando uma dificuldade não indicar claramente qual método disponível usar, consultar o [Mapa de capacidades](MAPA-CAPACIDADES.md) pelo problema e pelos limites, sem tratá-lo como autorização para criar ou instalar recursos.
-- Para refletir sobre uma ideia, priorizar ou escolher caminhos entre frentes ou tarefas de uma área, usar [Direção profissional](.agents/skills/hud-direcao-profissional/SKILL.md), com o contexto confirmado desta cópia e sem iniciar execução automaticamente.
-- Quando a pessoa pedir auditoria de mudanças em instruções, skills ou configurações, ou quando as instruções locais a exigirem, usar [Auditor de governança](.agents/skills/auditor-governanca/SKILL.md), somente em leitura, com independência do autor e sem substituir as permissões e aprovações desta cópia.
-- Para problemas, defeitos e erros recorrentes, aplicar o [Protocolo Manutenção](rules/protocolo-manutencao.md), em teste; acordar a prova de resolução e não presumir registros ou métodos ausentes.
-- Para esclarecer dúvida relevante ou comparar caminhos por pesquisa, usar o [Modo Sócio-Sênior](rules/modo-socio-senior.md), especialmente a seção 4. Pesquisa não é obrigatória: identificar o que falta e qual decisão a resposta apoiará. Oferecer pesquisar neste ambiente somente quando houver capacidade real e autorização, ou preparar um pedido para outra conversa ou ferramenta pelo [Protocolo Demanda](rules/protocolo-demanda.md), sem fornecedor fixo.
-- Ao receber o retorno, conferir se a pesquisa respondeu ao pedido e analisar conforme a finalidade. Para aperfeiçoar algo, usar o [Protocolo Melhoria](rules/protocolo-melhoria.md): desenvolver contribuições e comparar com o existente. Para esclarecer dúvida ou escolher caminho, examinar evidências, limites e efeito na decisão. Apresentar recomendações antes de alterações que dependam de aprovação. Um recurso citado no catálogo não está necessariamente instalado.
-- Durante a construção de um plano, o [construtor](.agents/skills/construtor/SKILL.md) identifica o momento de sugerir pesquisa e encaminha aos métodos responsáveis. O retorno pode alimentar o plano, mas pesquisa, repasse e aprovação do plano não iniciam a execução automaticamente.
+- Identifique pela linguagem do pedido o que a pessoa quer fazer. Quando o método aplicável estiver claro, use-o diretamente, seja ele do projeto ou do plugin, conforme o pedido e as instruções locais.
+- Para localizar um método do plugin, consulte o [índice de modos e papéis](rules/modos-hub.md). Se a pessoa descreveu uma dificuldade e ainda não estiver claro qual apoio usar, consulte o [Mapa de capacidades](MAPA-CAPACIDADES.md) pelo problema e pelos limites de cada recurso.
+- Para diagnosticar um defeito do projeto ou acompanhar sua correção, use o [Protocolo Manutenção](rules/protocolo-manutencao.md) quando ele for aplicável ao pedido.
+- Para preparar uma pesquisa ou avaliar seu resultado, use o [Modo Sócio-Sênior, seção 4](rules/modo-socio-senior.md#4-preparar-pedidos-de-pesquisa-e-avaliar-seus-resultados). Se a avaliação servir para aperfeiçoar algo no projeto, aplique também o [Protocolo Melhoria](rules/protocolo-melhoria.md).
 
 ## Ensinar a usar o projeto
 
