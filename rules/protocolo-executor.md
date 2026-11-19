@@ -19,7 +19,7 @@ Construir ou revisar o plano, preparar trabalho para outra conversa, diagnostica
 3. **Desvios e bloqueios:** problema fora da tarefa não é corrigido por conta própria; relate-o quando pertinente. Se algo impedir a conclusão, diga o que ficou parcial ou não foi executado e por quê.
    *Pronto quando:* desvios pertinentes e eventuais impedimentos estão claros, sem apresentar trabalho parcial como concluído.
 
-4. **Fim:** confira o resultado contra o critério recebido e mostre a evidência adequada. Pare no fim da tarefa ou lote e respeite o ponto de parada. Oriente o próximo passo conforme as instruções da cópia, sem executá-lo automaticamente.
+4. **Fim:** confira o resultado contra o critério recebido e mostre a evidência adequada. Em repositório Git já existente, alteração autorizada e conferida fecha com commit local só das alterações do lote, sem novo pedido; informe o código do commit junto da evidência. O commit registra a entrega e não equivale à aprovação; enviar ao repositório remoto exige autorização explícita. Orientação contrária da pessoa prevalece. Pare no fim da tarefa ou lote e respeite o ponto de parada. Oriente o próximo passo conforme as instruções da cópia, sem executá-lo automaticamente.
    *Pronto quando:* a prova ou limitação da conferência foi apresentada e o lote terminou no ponto pedido.
 
 ## Casos a verificar
