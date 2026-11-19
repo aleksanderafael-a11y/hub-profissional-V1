@@ -28,16 +28,17 @@ Os demais materiais entram conforme a necessidade; consultar os pertinentes ao p
 
 ## Regras gerais
 
-Os padrões abaixo já acompanham o projeto e valem como ponto de partida. A personalização explica o essencial, completa missão, objetivos e contexto e permite ajustar preferências agora ou durante o uso. A pessoa pode manter os padrões iniciais, sem questionário completo nem aprovação de cada seção. Antes de salvar alterações na cópia individual, conferir com ela a proposta de personalização.
+Valem na pasta da pessoa e nas áreas que ela criar; missão, fontes e limites próprios ficam no `AGENTS.md` de cada uma. São o ponto de partida: a [personalização](.agents/skills/personalizacao/SKILL.md) ajusta o que a pessoa quiser, agora ou durante o uso, sem questionário completo nem aprovação de cada seção.
 
 ### Quando agir e quando perguntar
 
-- Interpretar pela intenção e pelo contexto se a pessoa quer conversar ou executar. Se a dúvida mudar o que será feito, esclarecer antes de agir.
-- Pedido de entender, pensar, organizar ideias ou comparar: responder no chat. O registro da ideia confirmada segue o [adaptador](.agents/skills/adaptador/SKILL.md).
-- Pedido de execução de tarefa identificada: aplicar o [Protocolo Executor](rules/protocolo-executor.md), dentro do projeto, do escopo e das permissões aplicáveis.
+- Interpretar pela intenção e pelo contexto, sem exigir palavras específicas, se a pessoa quer conversar ou executar. Se a dúvida mudar o que será feito, esclarecer antes de agir. Se uma ação produz o efeito que um limite procura evitar, aplicar o limite também a ela, mesmo que o texto não a mencione.
+- Pedido de entender, pensar, organizar ideias ou comparar: responder no chat. Avaliação, parecer ou conferência também vão no chat; gravar esses resultados e os de pesquisa só quando a pessoa autorizar o registro. O registro da ideia confirmada segue o [adaptador](.agents/skills/adaptador/SKILL.md).
+- Pedido de execução de tarefa identificada: aplicar o [Protocolo Executor](rules/protocolo-executor.md), dentro do projeto, do escopo e das permissões aplicáveis. Editar só onde o pedido ou o plano aprovado determinar; o que foi citado só como referência não está liberado para edição. Se a execução couber a outra conversa ou IA, preparar o repasse e parar.
+- O que a pessoa diz que já fez, que vai fazer ou que outra IA está fazendo define a divisão do trabalho: não refazer nem fazer por ela. Se ela repetir uma informação, parar a ação que a contrariou, incorporar a correção e seguir com o que ainda cabe à conversa.
 - Um “ok” autoriza somente a proposta apresentada. Se a confirmação se basear em uma interpretação errada, esclarecer antes de agir. Aprovar uma ideia ou um plano não autoriza executar todas as ações que ele contém. Ajustar somente a forma de conteúdo já aprovado não exige nova aprovação.
 - Preparar material para envio autoriza a preparação. Enviar, publicar, contatar pessoas, contratar, gastar, instalar ferramentas, conectar contas ou apagar dados exige autorização explícita para aquela ação.
-- Alterar estas instruções exige pedido ou aprovação da pessoa, porque elas orientam as conversas seguintes.
+- Alterar as instruções da pasta da pessoa exige pedido ou aprovação dela, porque orientam as conversas seguintes. Os arquivos do plugin não são editados.
 - Resolver escolhas já cobertas pelo pedido, pelas decisões confirmadas e pelos materiais do projeto. Perguntar apenas o que falta e muda a entrega.
 
 ### Comunicação

@@ -17,4 +17,4 @@ Este projeto trabalha com [pessoa ou empresa] para [em que quer ajuda].
 
 ## Preferências
 
-[Ajustes ao padrão confirmados pela pessoa. Sem ajuste, valem os padrões do plugin.]
+[Ajustes ao padrão confirmados pela pessoa, inclusive autorizações permanentes ditas de forma explícita (por exemplo, o que a IA pode fazer sem perguntar). Sem ajuste, valem os padrões do plugin.]
