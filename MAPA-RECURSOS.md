@@ -105,9 +105,12 @@ A manutenção desta cópia descritiva parte da fonte dona no Hub Profissional. 
 - **Construção e manutenção de planos:** **O que é:** Conjunto de regras e modelo de plano  
   **Entrega e uso:** Orienta criar planos com etapas, responsáveis, verificação, histórico e pontos de parada.  
   **Limites:** Precisa de objetivo e decisões; salvar é distinto de conversar. Não executa o plano.
+- **Leitura de plano por quem não viu a conversa:** **O que é:** Agente só de leitura, em teste  
+  **Entrega e uso:** Lê um plano como quem não acompanhou a conversa que o gerou e devolve o que ele quer, onde o trabalho está e o próximo passo com dono, mais os trechos confusos, contraditórios ou desatualizados, cada um com a linha.  
+  **Limites:** Precisa de um plano escrito; só entra por pedido. Não edita, não recomenda nem prioriza. Em teste na origem.
 - **Pesquisa orientada por uma decisão:** **O que é:** Método documentado de pesquisa para decisão  
-  **Entrega e uso:** Ajuda a definir dúvida, fontes, consolidação, conclusão e limite da evidência.  
-  **Limites:** Processo com partes ainda em avaliação; requer fonte e autorização externa. Não é buscador pronto.
+  **Entrega e uso:** Monta o pedido de pesquisa para outra IA (resultado esperado, contexto e limites, o que é fato e o que é hipótese) e avalia o que ela trouxe.  
+  **Limites:** Requer fonte e autorização externa. Não é buscador pronto nem confirma sozinho o que a pesquisa trouxe.
 - **Avaliação de evidência e atualidade:** **O que é:** Regra de avaliação de evidências  
   **Entrega e uso:** Separa fatos, alegações, hipóteses e pendências e confere atualidade proporcional ao risco.  
   **Limites:** Requer fontes verificáveis. Estar escrito ou repetido não torna uma afirmação verdadeira.
@@ -117,6 +120,12 @@ A manutenção desta cópia descritiva parte da fonte dona no Hub Profissional. 
 - **Diagnóstico e acompanhamento de falhas da IA:** **O que é:** Protocolo de manutenção de defeitos da IA  
   **Entrega e uso:** Ajuda a registrar erro, recorrência, impacto, correção proposta e verificação posterior.  
   **Limites:** Depende de evidências e execução autorizada; modelo do Hub. Não repara defeitos automaticamente.
+- **Resposta a erro apontado:** **O que é:** Regra de resposta a erro da IA, em teste  
+  **Entrega e uso:** Quando a pessoa aponta um erro, a IA responde primeiro o que aconteceu e qual orientação contrariou, com o trecho, e separa causa demonstrada de hipótese antes de propor correção.  
+  **Limites:** Explicar o descumprimento não prova a causa; sem evidência, a causa fica como hipótese. Não corrige nada sem autorização.
+- **Diagnóstico de sessões em que a pessoa precisou guiar a IA:** **O que é:** Método com prompt pronto, validado na origem  
+  **Entrega e uso:** Quando a pessoa percebe que está dizendo o próximo passo, repetindo ou corrigindo o rumo, pede às sessões abertas o levantamento de cada intervenção, cruza as respostas com uma sessão de contraste e separa correções de melhorias.  
+  **Limites:** É a IA avaliando a si mesma: opinião, não prova. Depende do histórico das conversas ainda abertas e não corrige nada sozinho.
 - **Log diário de trabalho:** **O que é:** modelo  
   **Entrega e uso:** transforma tópicos rápidos do dia num registro datado com seções fixas: feito, em andamento, alertas, números do dia, próximos passos e notas. Serve para prestar contas ou reconstruir uma semana.  
   **Limites:** seções e regras de classificação se ajustam à rotina da pessoa. Não vão registros anteriores.
@@ -154,7 +163,7 @@ A manutenção desta cópia descritiva parte da fonte dona no Hub Profissional. 
   **Entrega e uso:** Orienta triagem de arquivos, duplicações, limites e descartes na rotina do projeto.  
   **Limites:** Modelo para políticas e pastas próprias; exige autorização e ambiente. Não agenda ou limpa automaticamente.
 - **Preparação e conferência de tarefas delegadas:** **O que é:** Protocolo de demanda e conferência de entregas  
-  **Entrega e uso:** Ajuda a escolher executor, preparar instrução e verificar o resultado delegado.  
+  **Entrega e uso:** Ajuda a escolher o executor, montar o prompt (objetivo e uso, fontes, passos, entrega, prova de pronto e limites) e conferir o resultado sem refazer o trabalho.  
   **Limites:** Precisa de escopo, autorização e provas entregues. Não executa a tarefa repassada.
 - **Execução de tarefas com limites claros:** **O que é:** Protocolo de execução delimitada  
   **Entrega e uso:** Ajuda a cumprir tarefa indicada e verificar dependências, escopo e conclusão.  
@@ -291,6 +300,9 @@ A manutenção desta cópia descritiva parte da fonte dona no Hub Profissional. 
 - **Resumo de tarefas, prazos e retornos:** **O que é:** Script PowerShell de filas Markdown  
   **Entrega e uso:** Extrai itens abertos, datas, responsáveis e pendências das filas de tarefas previstas.  
   **Limites:** Requer PowerShell 7, estrutura específica de TAREFAS.md e Git para certas datas. Não lê tarefas arbitrárias.
+- **Aviso de retomada pelo plano mais recente:** **O que é:** Script PowerShell de retomada  
+  **Entrega e uso:** Mostra as alterações fora de commit e o bloco de situação atual do plano mexido por último, para retomar sem procurar.  
+  **Limites:** Requer PowerShell 7, Git e planos com bloco "Agora" no formato previsto; só lê. Não detecta mudanças feitas no mesmo dia da data do bloco.
 - **Verificação de links e referências locais:** **O que é:** Script PowerShell de referências e históricos  
   **Entrega e uso:** Lista links Markdown locais quebrados, movimentações e problemas de histórico.  
   **Limites:** Exige repositório local e PowerShell 7; modo opcional de descarte altera arquivos. Não valida âncoras.
