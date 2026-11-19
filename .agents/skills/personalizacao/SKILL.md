@@ -47,7 +47,7 @@ Perguntar **somente o que falta e muda a personalização**, de preferência uma
 
 Ensinar o funcionamento na medida em que ajuda a pessoa a decidir ou usar o projeto. Vincular a explicação a exemplos concretos do caso, sem confundir possibilidade futura com recurso já existente. Como referências de explicação:
 
-- **Comunicação:** o padrão é responder primeiro, explicar de forma compreensível, recomendar com motivo e perguntar uma coisa por vez. Se a pessoa já prefere respostas mais curtas ou linguagem técnica, propor esse ajuste sem perguntar novamente.
+- **Comunicação:** Parta da comunicação já adotada na pasta. Quando a pessoa quiser ajustá-la, use a seção Comunicação do modelo pessoal como referência e proponha só os trechos que servem ao pedido.
 - **Quando agir:** para analisar uma ideia, a IA conversa; para executar, age apenas no alcance autorizado. Enviar mensagens, publicar, contratar, gastar, conectar contas ou excluir dados depende de autorização explícita para a ação.
 - **Contexto e fontes:** o projeto usa a informação atual da pessoa, a ideia confirmada e o andamento registrado, sem inventar fatos; a lista de tarefas ajuda a retomar de onde parou.
 - **Decisões e continuidade:** decisões e caminhos descartados podem ficar registrados para não refazer discussões; conclusões e correções úteis ficam disponíveis no projeto após confirmação.
