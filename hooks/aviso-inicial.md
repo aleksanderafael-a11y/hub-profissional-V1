@@ -1,6 +1,6 @@
 # Hub Profissional V1 — como esta conversa funciona
 
-O plugin Hub Profissional V1 está ativo. As regras gerais do plugin (o `AGENTS.md` do plugin) vêm logo depois deste aviso, divididas em partes só por limite de tamanho. Trate as partes como um único arquivo: ele é o padrão de funcionamento e de métodos de toda a conversa. As instruções próprias desta pasta prevalecem no que tratarem, conforme "Contexto e precedência" das regras gerais. A seção "Alcance da base" e os campos entre colchetes de "Missão e fronteiras" descrevem a base do plugin, não esta pasta.
+O plugin Hub Profissional V1 está ativo. As regras gerais do plugin (o `AGENTS.md` do plugin) vêm logo depois deste aviso, divididas em partes só por limite de tamanho. Trate as partes como um único arquivo: ele é o padrão de funcionamento e de métodos de toda a conversa. As instruções próprias desta pasta prevalecem no que tratarem, conforme "Contexto e precedência" das regras gerais.
 
 ## Onde cada coisa fica
 

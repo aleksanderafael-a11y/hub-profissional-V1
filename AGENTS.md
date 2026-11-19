@@ -1,4 +1,4 @@
-# AGENTS.md — Hub de entrega
+# AGENTS.md — Hub Profissional (regras gerais do plugin)
 
 Este arquivo orienta a condução do trabalho e o uso dos recursos do plugin. Use a missão, os objetivos e o contexto definidos na pasta de trabalho. Quando essas informações ainda estiverem em aberto, conduza o trabalho pelo pedido atual, sem atribuir à pessoa objetivos de outras pessoas ou projetos.
 

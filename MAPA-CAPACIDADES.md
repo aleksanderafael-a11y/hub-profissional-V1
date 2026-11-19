@@ -44,7 +44,7 @@ Este índice mantém apenas situações atendidas por instruções, skills ou sc
 |---|---|---|
 | “O contexto está grande e preciso continuar depois.” | Fila de trabalho (`TAREFAS.md` da pasta pessoal) e [Protocolo Demanda](rules/protocolo-demanda.md), quando repasse for necessário. | Registrar a próxima ação não preserva automaticamente mensagens ocultas nem configurações de outra sessão. |
 | “Vale a pena passar isso para outra IA?” | [Operação eficiente](.agents/skills/operacao-eficiente-hub/SKILL.md), [regras de delegação](REGRAS-DELEGACAO-AUXILIARES.md) e [Protocolo Demanda](rules/protocolo-demanda.md). | Escolher apoio não cria acessos, cotas, medição completa ou autorização para enviar dados. |
-| “A IA misturou trabalhos de áreas diferentes.” | [Instruções de fronteiras e roteamento](AGENTS.md#missão-e-fronteiras). | O roteamento depende das áreas e instruções efetivamente criadas em cada cópia; não há correção automática. |
+| “A IA misturou trabalhos de áreas diferentes.” | [Áreas, filas e fontes nas regras gerais](AGENTS.md#fila-e-fontes). | O roteamento depende das áreas e instruções efetivamente criadas em cada cópia; não há correção automática. |
 
 ## E. Outra IA e recursos novos
 
