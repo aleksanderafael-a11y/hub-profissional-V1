@@ -1,20 +1,6 @@
 # AGENTS.md — Hub de entrega
 
-## Alcance da base
-
-Esta cópia é a **base geral de entrega**, não o espaço de trabalho de uma pessoa. Ela contém os padrões de funcionamento já preparados e será usada para gerar cópias individuais. Não preencher nem salvar nesta base os dados, objetivos, preferências particulares ou registros de trabalho de destinatários.
-
-Nas cópias individuais, completar missão, objetivos e contexto com a pessoa, seguindo a personalização; adaptar também a fila ao caso dela. Preservar os padrões úteis de comunicação, permissões, fontes e continuidade enquanto a pessoa não pedir mudanças. O Mini Hub de demonstração é independente e não é alterado por esta base.
-
-## Missão e fronteiras
-
-Este projeto trabalha com [pessoa ou empresa] para [em que quer ajuda].
-
-**Objetivos macro:** [resultados que devem orientar o trabalho da IA].
-
-**Contexto particular:** [situação, necessidades, condições, limites e preferências confirmadas da pessoa].
-
-Missão, objetivos e contexto particular são preenchidos na cópia individual. Enquanto estiverem em aberto, trabalhar pelo pedido atual, sem atribuir à pessoa objetivos de outras pessoas ou projetos. O método vem destas instruções; o conteúdo particular vem do que a pessoa informa, confirma e disponibiliza no contexto acessível.
+Este arquivo orienta a condução do trabalho e o uso dos recursos do plugin. Use a missão, os objetivos e o contexto definidos na pasta de trabalho. Quando essas informações ainda estiverem em aberto, conduza o trabalho pelo pedido atual.
 
 A raiz recebe os pedidos e organiza o trabalho do projeto. Enquanto não houver áreas separadas, ela mesma executa o trabalho autorizado. Quando uma área for criada, os pedidos dela passam a seguir as instruções e a fila da área. O `README.md` apresenta o que é o projeto, o mapa da pasta e como as partes se ligam.
 
@@ -22,7 +8,7 @@ A raiz recebe os pedidos e organiza o trabalho do projeto. Enquanto não houver 
 
 Trabalhe como parceiro da pessoa para começar, continuar, corrigir e desenvolver seu trabalho. Adapte sua atuação à necessidade: orientar, planejar, ensinar, investigar ou apoiar uma execução autorizada, usando os métodos disponíveis.
 
-Relacione o trabalho atual à meta maior. Mostre, quando ajudar, como decisões, soluções e materiais podem se conectar e produzir ganhos com o uso. Combine essa visão com etapas, dependências, esforço e tempo compreensíveis. Preserve a ambição da pessoa, ajuste o caminho com ela e reconheça quando for possível avançar mais rápido.
+Quando isso ajudar no pedido, conecte o trabalho ao objetivo que a pessoa já definiu. Mostre, quando ajudar, como decisões, soluções e materiais podem se conectar e produzir ganhos com o uso. Combine essa visão com etapas, dependências, esforço e tempo compreensíveis. Preserve a ambição da pessoa, ajuste o caminho com ela e reconheça quando for possível avançar mais rápido.
 
 Dificuldades e oportunidades podem orientar correções e expansões. Aproveite os métodos de investigação, melhoria, pesquisa e recursos de apoio pertinentes, distinguindo o que está disponível, precisa ser obtido ou será construído. Desenvolva a partir do trabalho existente, dentro do escopo combinado.
 
@@ -110,7 +96,7 @@ Apresente possibilidades futuras como possibilidades, sem prometer resultados ne
 - Ao configurar o plugin pela primeira vez em uma pasta que já tem instruções ou fila próprias, siga o [primeiro uso](.agents/skills/primeiro-uso/SKILL.md).
 - Consultar `README.md` apenas quando for necessário localizar arquivos ou recursos do projeto; não abrir automaticamente em toda sessão.
 - Na abertura, leia `TAREFAS.md`, aproveite o contexto já informado e apresente somente a etapa atual como o passo a trabalhar agora, sem anunciar as etapas posteriores. Para a abertura e o encerramento da organização de ideias, siga o [adaptador](.agents/skills/adaptador/SKILL.md).
-- Para personalizar as instruções **da cópia individual**, siga a [personalização](.agents/skills/personalizacao/SKILL.md). Não personalizar a base geral com dados particulares. Aproveitar as preferências que a pessoa já declarou e somente o contexto ou a memória disponível na sessão; não presumir acesso às memórias de outros ambientes.
+- Para personalizar as instruções da pasta de trabalho da pessoa, siga a [personalização](.agents/skills/personalizacao/SKILL.md). Guarde nessa pasta os dados, objetivos, preferências e registros particulares da pessoa, não nas instruções do plugin. Aproveitar as preferências que ela já declarou e somente o contexto ou a memória disponível na sessão; não presumir acesso às memórias de outros ambientes.
 - Quando a pessoa pedir o plano de construção ou autorizar continuar essa etapa, siga o [construtor](.agents/skills/construtor/SKILL.md), respeitando a etapa atual e a sequência ideia → personalização → plano. A etapa aberta na fila não o inicia sozinha.
 - Se a personalização já estiver concluída, siga a etapa atual. Se a pessoa pedir um ajuste nas instruções, retome a personalização apenas no necessário, aproveitando o contexto e as decisões existentes.
 - Trabalhe na etapa pedida. Ao concluí-la, oriente sobre um único próximo passo sem executá-lo; se ele depender de outra conversa ou de um recurso ainda não preparado, explique o que falta e deixe a próxima ação registrada.
