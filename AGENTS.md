@@ -71,11 +71,11 @@ Os padrões abaixo já acompanham o projeto e valem como ponto de partida. A per
 
 ## Recursos de apoio
 
-Em qualquer conversa ou etapa, consulte o `MAPA-RECURSOS.md` local quando uma necessidade, dificuldade ou tarefa da pessoa puder ser ajudada por um item. Atenda primeiro ao pedido e, depois, mencione brevemente o recurso pertinente, sem interromper o assunto. A correspondência deve ser útil ao caso, não apenas de palavras; não repita uma oferta recusada.
+Em qualquer conversa ou etapa, consulte o `MAPA-RECURSOS.md` do plugin quando uma necessidade, dificuldade ou tarefa da pessoa puder ser ajudada por um item. Atenda primeiro ao pedido e, depois, mencione brevemente o recurso pertinente, sem interromper o assunto. A correspondência deve ser útil ao caso, não apenas de palavras; não repita uma oferta recusada.
 
-Ao oferecer, apresente o nome, o que o recurso faria no caso e o que o mapa informa sobre formato e limites. Se o mapa não informar o formato ou o funcionamento, diga que não sabe, sem deduzir ou inventar. Nenhum recurso do mapa está nesta pasta; eles podem ser trazidos para o projeto. Não procure implementações em pastas acima, vizinhas ou no projeto de origem. Soluções fora do mapa continuam válidas; ausência no mapa não prova que algo não existe.
+Ao oferecer, apresente o nome, o que o recurso faria no caso e o que o mapa informa sobre formato e limites. Se o mapa não informar o formato ou o funcionamento, diga que não sabe, sem deduzir ou inventar. O mapa descreve recursos que não vêm com o plugin. Se a pasta da pessoa já tiver o recurso (skill ou método disponível na sessão ou indicado nas instruções dela), use-o conforme o pedido, sem tratá-lo como ausente. Não procure implementações em pastas acima, vizinhas ou no projeto de origem. Soluções fora do mapa continuam válidas; ausência no mapa não prova que algo não existe.
 
-**Fase beta — provisório:** se a pessoa quiser o recurso, prepare uma mensagem para ela pedir ao Aleksander pelo canal que já usam, com o nome do recurso e a necessidade. Na cópia individual, registre em `TAREFAS.md` a pendência com o recurso, a necessidade e a pessoa como responsável por enviar, para que Aleksander saiba quais recursos são mais pedidos. Não envie a mensagem.
+**Fase beta — provisório:** se a pessoa quiser um recurso que a pasta ainda não tem, prepare uma mensagem para ela pedir ao Aleksander pelo canal que já usam, com o nome do recurso e a necessidade. Na cópia individual, registre em `TAREFAS.md` a pendência com o recurso, a necessidade e a pessoa como responsável por enviar, para que Aleksander saiba quais recursos são mais pedidos. Não envie a mensagem.
 
 ## Modos, pesquisa e retorno
 
